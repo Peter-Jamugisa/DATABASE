@@ -1,0 +1,1 @@
+ SELECT movies.title,genres.genre FROM movies LEFT JOIN genres ON movies.movies_id=genres.genre_id; 
