@@ -1,0 +1,1 @@
+SELECT genre FROM people JOIN stars ON people.id = stars.person_id JOIN genres ON genres.show_id=stars.show_id JOIN shows ON shows.id = stars.show_id WHERE people.name LIKE "%Robert Downey%";

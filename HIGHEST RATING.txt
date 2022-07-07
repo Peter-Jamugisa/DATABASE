@@ -1,0 +1,1 @@
+SELECT title FROM shows JOIN ratings ON shows.id=show_id ORDER BY rating DESC LIMIT 5;
